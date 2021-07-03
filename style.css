@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: dimgray;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.header-top {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.header-left,
+.heade-right {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.header-left h1 span {
+  color: #ffa500;
+}
+/* .heade-right img {
+  width: 100%;
+} */
+.hire-me {
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
