@@ -23,26 +23,62 @@ section {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
-
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experiences-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+}
 .header-left,
 .heade-right {
-  width: 40%;
+  width: 39%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
-.header-left h1 span {
+.header-left h1 span,
+.experiences-duration {
   color: #ffa500;
 }
-/* .heade-right img {
+.heade-right img,
+.header-left img {
   width: 100%;
-} */
+}
 .hire-me {
-  background: linear-gradient(45deg, lightsalmon, tomato);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 186, 37, 1) 0%,
+    rgba(251, 106, 87, 1) 50%,
+    rgba(253, 62, 139, 1) 100%
+  );
   padding: 10px 40px;
   border-radius: 10px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+}
+.experiences-area div {
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;
+}
+.experiences-area p {
+  margin-right: 24px;
+}
+#react {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(122, 255, 140), rgb(71, 197, 255));
+  border-image-slice: 1;
+  margin-top: 450px;
+}
+#java-script {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(255, 0, 234), rgb(200, 255, 0));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
